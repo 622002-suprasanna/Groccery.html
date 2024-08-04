@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width",initial-sclae="1.0">
+    <title>Complete Responsible Groccery Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<!----font awesome CDN Link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+<!---css link-->
+<link rel="stylesheet" href="Groccery.css">
+</head>
+<body>
+    <!--header section starts--->
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Groco</a>
+        <nav class="navbar">
+            <a href="#Home">Home</a href>
+            <a href="#Features">Features</a href>
+            <a href="#Products">Products</a href>
+            <a href="#Categoies">Categories</a href>
+            <a href="#Review">Review</a href>
+            <a href="#Blogs">Blogs</a href>
+        </nav>
+        <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search"  id="search-box" placeholder="search here....">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart">
+            <div class="box">
+            <img src="" alt="">
+            <div class="content">
+                <h1>Watermelon</h1>
+                <i class="fas fa-trash"></i>
+                <br>
+                <span class="price">$4.5/-</span>
+                <br>
+                <span class="quantity">qty :1</span>
+            </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <div class="content">
+                    <h1>Onion</h1>
+                    <i class="fas fa-trash"></i> 
+                    <br>
+                    <span class="price">$10.0/-</span>
+                    <br>
+                    <span class="quantity">qty :5</span>
+                </div>
+                </div>
+                <div class="box">
+                    <img src="" alt="">
+                    <div class="content">
+                        <h1>Pumpkin seeds Packet</h1>
+                        <i class="fas fa-trash"></i>
+                       <br>
+                        <span class="price">$8</span>
+                        <br>
+                        <span class="quantity">qty :1</span>
+                    </div>
+                    </div>
+                    <div class="total"><h2>Total:$22.5/-</h2></div>
+                    <a href="#" class="btn">checkout</a>
+        </div>
+        <form action="" class="login-form">
+            <h3>Login now</h3>
+        <input type="e-mail"  placeholder="Enter your E-Mail" class="box">
+        <br>
+        <br>
+        <input type="password"  placeholder="Enter your password" class="box">
+        <p>forgot your password
+            <br><a href="#">click here</a></p>
+        <p>Don't have an account
+            <br><a href="#">create now</a></p>
+        <input type="submit"  value="Login now" class="btn">
+        </form>
+        </header>
+        <!----header section ends-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!---JS link-->
+ <script src="Groccery.js"></script>
+ <!-----home section starts here---->
+<section class="home" id="Home">
+<div class="content">
+    <h4>Fresh and <span>organic products</span> for your friends and family</h4>
+        <br>
+    <h4>Organic Goodness, Everyday Greatness,Choose Organic, Choose Wellness.From Farm to Fork, Naturally Yours.......
+        <h5>Explore. Taste. Enjoy. Repeat</h5>
+    <h4>
+    <a href="#" class="btn">Shop now</a>
+</div>
+</section>
+ <!-----home section ends here----->
+ <!-----Features section starts here-->
+ <section class="Features" id="Features">
+   <h1 class="heading">Our<span>Features</span></h1>
+   <div class="box-container">
+    <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.FC6_TmKeX2mdSr6wSlcfugHaD8?w=266&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+        <h1>Fresh and Organic</h1>
+        <p>Organic food products are grown 
+            under a system of agriculture without the 
+        use of harmful chemical fertilizers
+         and pesticides with an environmentally
+          and socially responsible approach.</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+    <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.wfOmHeSidU4FzESc6GrFZwHaE8?w=248&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+        <h1>Free delivery</h1>
+        <p>We provide free and fast delivery
+             for our customers within time and 
+             without any tireness 
+        as,our first priority is our
+         customers and their happiness </p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+    <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.HbxyeLRf8Sf5ybvusSNsOQHaHl?w=179&h=184&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+        <h1>Easy Payments</h1>
+        <p>Payments are done with in minutes as
+             we provide our customers with 
+        all type of payments like Cash,
+        credit-card,G-Pay,PhonePay etc..</p>
+        <a href="#" class="btn">Read more</a>
+    </div>
+   </div>
+ </section>
+  <!-----Features section ends here-->
+  <!-----products section starts-->
+  <section class="products" id="products">
+<h1 class="heading">Our<span>Products</span></h1>
+<div class="swiper product-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide box">
+    <img src="https://th.bing.com/th?id=OIP.Ma0f_Z3WDbz4EfbwoTvLPQHaHI&w=254&h=245&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt="">
+    <h1>Fresh Oranges</h1>
+    <div class="price">$4.99/--$11.00/-</div>
+    <div class="starts">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>    
+         <i class="fas fa-star"></i>   
+         <i class="fas fa-star"></i> 
+         <i class="fas fa-star-half-alt"></i>
+    </div>
+    <a href="#" class="btn">Add to Cart</a>
+    </div>
+    <div class="swiper-slide box">
+    <img src="https://th.bing.com/th?q=Onion+with+Transparent+Background&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" alt="">
+    <h1>Onoins</h1>
+    <div class="price">$7.50/--$16.00/-</div>
+    <div class="starts">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>    
+         <i class="fas fa-star"></i>   
+         <i class="fas fa-star"></i> 
+         <i class="fas fa-no-star"></i>
+    </div>
+    <a href="#" class="btn">Add to Cart</a>
+    </div>
+    <div class="swiper-slide box">
+    <img src="https://th.bing.com/th?id=OIP.dJDuAE4Q63a64EWft59rTAHaGx&w=261&h=239&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt="">
+    <h1>Dates</h1>
+    <div class="price">$6.00/--$18.00/-</div>
+    <div class="starts">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>    
+         <i class="fas fa-star"></i>   
+         <i class="fas fa-star"></i> 
+         <i class="fas fa-star-half-alt"></i>
+     </div>
+     <a href="#" class="btn">Add to Cart</a>
+     </div>
+    </div>
+</div>
+     <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+    <div class="swiper-slide box">
+        <img src="https://th.bing.com/th?id=OIP.S9Cqtt2_Vt3ocdmTyoIr-wHaEw&w=311&h=200&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt="">
+        <h1>Almonds</h1>
+        <div class="price">$2.00/--$7.00/-</div>
+        <div class="starts">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>    
+             <i class="fas fa-star"></i>   
+     </div>
+    <a href="#" class="btn">Add to Cart</a>
+    </div>
+    <div class="swiper-slide box">
+         <img src="https://www.bing.com/th?id=OIP.qbtfTieEpOA4y66SY0zvEAHaHa&w=146&h=146&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt="">
+            <h1>Cauliflower</h1>
+            <div class="price">$3.50/--$9.00/-</div>
+            <div class="starts">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>    
+                 <i class="fas fa-star"></i>   
+                 <i class="fas fa-star"></i> 
+                 <i class="fas fa-no-star"></i>
+            </div>
+            <a href="#" class="btn">Add to Cart</a>
+            </div>
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.n5C9qq9PLer9lCsJMdU6OwHaE1?w=272&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+                   <h1>Fresh Meat</h1>
+                   <div class="price">$16.50/--$30.00/-</div>
+                   <div class="starts">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>    
+                        <i class="fas fa-star"></i>   
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                   </div>
+                   <a href="#" class="btn">Add to Cart</a>
+                   </div>
+                </div>
+            </div>
+  </section>
+  <!----products section ends----->
+  <!-----Categories section starts---->
+<section class="Categories" id="Categories">
+    <h1 class="heading">product<span>Categories</span></h1>
+<div class="box-container">
+    <div class="box">
+<img src="https://th.bing.com/th/id/OIP.T80MCkq26UKkDXsxsAFOEAHaE8?w=284&h=189&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+<h3>Vegetables</h3>
+<p>Upto 40% off</p>
+<a href ="#" class="btn">Shop Now</a>
+</div>
+    <div class="box">
+<img src="https://th.bing.com/th/id/OIP.4cCTsrDPqZ8ylOfBLY5y2wHaGL?w=226&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+<h3>Fresh Fruits</h3>
+<p>Upto 30% off</p>
+<a href ="#" class="btn">Shop Now</a>
+</div>
+    <div class="box">
+<img src="https://th.bing.com/th/id/OIP.VFGPYK-MoPkMPpdLeBjThgHaEh?w=251&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+<h3>Dairy Products</h3>
+<p>Upto 50% off</p>
+<a href ="#" class="btn">Shop Now</a>
+</div>
+    <div class="box">
+<img src="https://ts3.mm.bing.net/th?id=OIP.cJjb0CkvRHLiC5Ui90WipwHaE7&pid=15.1" alt="">
+<h3>Fresh Meat</h3>
+<p>Upto 25% off</p>
+<a href ="#" class="btn">Shop Now</a>
+</div>
+</div>
+</section>
+   <!-----Categories section  ends---->
+<!-----review section starts--->
+<section class="review" id="review">
+    <h1 class="heading">Customer's<span>Review</span></h1>
+    <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.PZsMLTIgXaEsdCA0VjTo7gHaLH?w=115&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+                <h3>John</h3>
+                <p>The products in the Grocco are amazing<br> and they selling products at very reasonable proce with great quality really enjoyed shooping at Grocco.</p>
+                <div class="starts">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>    
+                        <i class="fas fa-star"></i>   
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-no-star"></i>
+                 </div>
+            </div>
+             <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.3PqovG3X2EFl5RT2OyW8NQHaLH?w=122&h=183&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+                <h3>Dia</h3>
+                <p>All the products which are in our daily use are avalible at very reasonable price with great customer service.</p>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>    
+                     <i class="fas fa-star"></i>   
+                     <i class="fas fa-star"></i> 
+                     <i class="fas fa-star-alt"></i>
+                </div>
+            </div>
+             <div class="swiper-slide box">
+                <img src="https://th.bing.com/th/id/OIP.YzNOqiphIX5rKlEaPWV_lgHaE7?w=304&h=203&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+                <h3>Sonia</h3>
+                <p>Loved shooping at Grocco,they have wide range<br>of products 
+                with great quality at reasonable price <br> and they provide amazing  offers and<br>
+                loved their customer service.</p>
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>    
+                     <i class="fas fa-star"></i>   
+                     <i class="fas fa-star"></i> 
+                     <i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-----review section ends--->
+<!-----blogs section starts-->
+<section class="blogs" id="#blogs">
+<h1 class="heading">Our<span>Blogs</span></h1>
+<div class="box-container">
+<div class="box">
+<img src="https://th.bing.com/th?id=OIP.aqO7HS0REE7TZxIYJ5s9vgHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.1&pid=3.1&rm=2" alt="">
+<div class="content">
+    <div class="icons">
+    <a href="#"> <i class="fas fa-user"></i> By User</a>
+    <a href="#"> <i class="fas fa-calendar"></i> 30 May,2024</a>
+    </div>
+    <h3> Fresh Fruits and organic vegetables</h3>
+    <p>Organic farming and food processing practices 
+      are wide-ranging and necessitate the development
+         of socially, ecologically, and economically 
+         sustainable food production system.</p>
+    <a href="#" class="btn">Read More</a>
+   </div>
+   </div>
+<div class="box">
+    <img src="https://th.bing.com/th/id/OIP.vhpAYCzEj8u-hx4ZmAc2wQHaEK?w=293&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+    <div class="content">
+        <div class="icons">
+        <a href="#"> <i class="fas fa-user"></i> By User</a>
+        <a href="#"> <i class="fas fa-calendar"></i> 4 June,2024</a>
+        </div>
+        <h3>Creamy and healthy dairy products</h3>
+        <p>Very healthy and creamy dairy products which are good for health and very tasty.
+        And these products are vey well packed and much in demand.</p>
+        <a href="#" class="btn">Read More</a>
+        </div>
+        </div>
+    <div class="box">
+        <img src="https://th.bing.com/th/id/OIP.lNhblKCQTW-keltrP_vLawHaE7?w=231&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="">
+        <div class="content">
+            <div class="icons">
+            <a href="#"> <i class="fas fa-user"></i> By User</a>
+            <a href="#"> <i class="fas fa-calendar"></i> 20 July,2024</a>
+            </div>
+            <h3>Chocolates and Candies</h3>
+            <p>From delicious chocolates to tangy gummies,
+             candy has been delighting people for generations! 
+            Whether you’re young or old, there’s a type of 
+            sweet treat out there that will make your taste buds go wild!</p>
+            <a href="#" class="btn">Read More</a>
+            </div>
+           </div>
+</div>
+</section>
+<!----blogs section ends----->
+<!-----footer section starts--->
+<section class="fotter">
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Groco</a>
+            <div class="share">
+                <a href="#" class="links"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="#" class="links"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="links"><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+        <div class="box">
+            <h1>Contact Info</h1>
+           <a href="#" class="links"> <i class="fas fa-phone"></i> +91-567-67878 </a>
+           <a href="#" class="links"> <i class="fas fa-phone"></i> +91-7986-78540 </a>
+           <br>
+           <a href="#" class="links"> <i class="fas fa-envelope"></i> ramakasuprasanna@gmail.com </a>
+           <br>
+           <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>Karimnagar,Telangan,505001 </a> 
+     </div>
+     <div class="box">
+        <h1>Quick links</h1>
+       <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Home</a>
+       <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Features </a>
+       <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Products </a>
+       <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Categories</a> 
+       <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Review </a>
+       <a href="#" class="links"> <i class="fas fa-arrow-right"></i> Blogs </a> 
+ </div>
+ <div class="box">
+   <h1>newsletter</h1>
+   <p>Subscribe for latest updates</p>
+ <input type="email" placeholder="Enter you email" class="email">
+ <input type="submit" value="subscribe" class="btn">
+</div>
+    </div>
+</section>
+<!-----footer section ends  --->
+        </body>
+        </html>
+       
